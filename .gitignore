@@ -1,0 +1,6 @@
+# Do not track DS_Store
+.DS_Store
+
+# Do not track design files
+design
+style-guide.md
