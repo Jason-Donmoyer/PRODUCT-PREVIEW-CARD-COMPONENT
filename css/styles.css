@@ -192,3 +192,47 @@ h1, p {
 /**********************/
   /* MEDIA QUERIES */
 /**********************/
+
+/* Tablet 768px */
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: inline-flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        width: 600px;
+        flex-direction: row;
+    }
+
+    .main-img {
+        height: 100%;
+        width: 300px;
+        background: url(../images/image-product-desktop.jpg) lightgray 0px 0px / 112.565% 100% no-repeat;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: var(--spacing-100);
+    }
+
+    .content-container {
+        width: 300px;
+        gap: var(--spacing-400);
+        border-top-right-radius: var(--spacing-100);
+        border-bottom-left-radius: 0px;
+    }
+
+}
+
+/**********************/
+/* HOVER STATE */
+/**********************/
+
+.add-to-cart-btn:hover {
+    cursor: pointer;
+    background-color: var(--green-700);
+}
